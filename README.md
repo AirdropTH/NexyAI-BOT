@@ -51,7 +51,8 @@ Nexy AI BOT is an automated tool designed to enhance your experience with Nexy A
     nano tokens.txt
     ```
     F12 - Network to find token
-    
+    ![Capture](https://github.com/user-attachments/assets/384a5471-8fa1-421c-b882-2bc5f7e84b1c)
+
 
 3. Run the script:
     ```sh
