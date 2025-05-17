@@ -357,7 +357,7 @@ class NexyAi {
     async main() {
         try {
             const tokensContent = await readFileAsync('tokens.txt', 'utf8');
-            const tokens = tokensContent.split('\n').filter(line => line.trim());
+            const tokens = tokensContent.trim().split('\n').map(acc => acc.trim()).filter(acc => acc);
             
             const useProxyChoice = await this.printQuestion();
 
